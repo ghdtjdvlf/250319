@@ -1,0 +1,135 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+body {
+    font-family: 'Pretendard Variable';
+}
+
+nav {
+    width: 1818px;
+    margin: 0 auto;
+    padding: 18px 0;
+    justify-content: space-between;
+
+}
+
+nav ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%;    
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.icon li:nth-child(3) {
+    display: none;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.navi {
+    gap: 0 48px;
+}
+
+.navi a {
+    color: #000;
+
+}
+
+.icon ul {
+    gap: 0 23px;
+}
+
+.icon ul {
+    
+}
+
+.none {
+
+}
+
+
+
+/* 태블릿 */
+
+@media (min-width:768px) and (max-width:1280px) {
+
+    nav {
+        width: 80%;
+        padding: 18px 0px;
+        justify-content: space-between;
+        padding: 24px 0px;
+        gap: 0 78px;
+        font-size: 18px;
+    }
+
+
+    
+    
+    .icon {
+        display: none;
+    }
+
+
+    .navi {
+
+    }
+
+
+
+}
+
+
+
+
+/* 모바일 */
+
+
+
+@media (max-width:560px){
+
+
+    nav {
+        justify-content: space-between;  
+        width: 80%;   
+    }
+
+    .navi {
+            display: none;
+        }
+
+    .icon {
+        display: block;
+    }
+
+    .icon li:nth-child(1),
+    .icon li:nth-child(2){
+        display: none;
+        }
+
+    .icon li:nth-child(3) {
+       display: block;
+    }
+
+}
+
+@media(min-width:600px) {
+
+    .navi {
+        color: blue
+    }
+}
